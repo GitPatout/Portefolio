@@ -1,0 +1,66 @@
+.presentation {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 180px;
+
+
+
+    .photo {
+        width: 230px;
+        height: 300px;
+        border-radius: 2%;
+        box-shadow: 3px 3px 3px rgb(255, 255, 255);
+    }
+
+    ul {
+        border: 3px solid rgb(0, 0, 0);
+        border-radius: 5%;
+        box-shadow: 3px 3px 3px rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        padding: 3px;
+
+
+        li {
+            display: flex;
+            width: 500px;
+            padding: 10px 0 0 0;
+            margin: 0 0 0 0;
+        }
+    }
+
+    .bouton {
+        cursor: pointer;
+        text-align: center;
+        background-color: white;
+        font-size: 15px;
+        box-shadow: 3px 3px 3px rgb(0, 0, 0);
+        border-radius: 10%;
+
+    }
+
+    h2 {
+        width: 400px;
+        white-space: normal;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .presentation {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    ul li {
+        display: flex;
+        white-space: normal;
+    }
+
+}
