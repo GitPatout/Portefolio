@@ -1,3 +1,7 @@
+.body{
+    height: 100%;
+}
+
 .cv {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -5,18 +9,15 @@
     grid-template-areas:
         "exp competence"
         "exp loisir";
-
-    height: fit-content;
     gap: 20px;
-    max-width: 1200px;
-    margin: auto;
     background-color: rgb(255, 255, 255);
-    position: relative;
-    top: 105px;
-    // left: 280px;
     border-radius: 5%;
     border: 3px solid;
-    box-shadow: 3px 3px 3px 3px rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px rgb(255, 255, 255); 
+    max-width: 1200px;
+    margin: auto;
+    width: 70%;
+
 
     .exp {
         grid-area: exp;
@@ -26,28 +27,24 @@
     .competence {
         grid-area: competence;
         font-size: 20px;
-        position: relative;
-        left: 105px;
     }
 
     .loisir {
         grid-area: loisir;
         font-size: 20px;
-        position: relative;
-        left: 109px;
     }
 
     .date {
-        padding: 35px 0 0 0;
+        padding: 20px 0 0 0;
         white-space: normal;
     }
 
-    .c {
+    .ligne_competence{
         padding: 2px 0 0 0;
         white-space: normal;
     }
 
-    .l {
+    .ligne_loisir{
         padding: 2px 0 0 0;
         white-space: normal;
     }
