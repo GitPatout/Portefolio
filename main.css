@@ -161,7 +161,7 @@ nav .patout {
 }
 
 .background_image {
-  background-image: linear-gradient(to bottom, rgba(50, 116, 33, 0.26), rgba(124, 194, 124, 0.404), rgba(50, 116, 33, 0.26)), url("/images/fond.jpg");
+  background-image: linear-gradient(to bottom, rgba(50, 116, 33, 0.26), rgba(124, 194, 124, 0.404), rgba(50, 116, 33, 0.26)), url("../images/fond.jpg");
   background-repeat: inherit;
   margin: 0;
   height: 100%;
