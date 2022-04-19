@@ -1,7 +1,9 @@
 .body{
     height: 100%;
 }
-
+.page_cv{
+    height: 70%;
+}
 .cv {
     display: grid;
     grid-template-rows: repeat(2, 1fr);

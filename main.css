@@ -45,11 +45,11 @@ footer .footer .suivant:hover {
   border: 3px solid;
   box-shadow: 3px 3px 3px 3px rgb(255, 255, 255);
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   background-color: rgb(255, 255, 255);
   border-radius: 5%;
-  height: 280px;
-  width: 350px;
+  height: 350px;
+  width: 500px;
 }
 .grille .case1 {
   grid-area: case1;
@@ -76,6 +76,10 @@ footer .footer .suivant:hover {
 }
 .body {
   height: 100%;
+}
+
+.page_cv {
+  height: 70%;
 }
 
 .cv {
@@ -161,8 +165,7 @@ nav .patout {
   background-repeat: inherit;
   margin: 0;
   height: 100%;
-  -o-object-fit: center;
-     object-fit: center;
+  width: 100%;
 }
 .background_image div.coordonnee_contact {
   height: 70%;
